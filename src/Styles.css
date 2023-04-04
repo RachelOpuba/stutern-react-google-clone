@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+img {
+  max-height: 100%;
+}
+
+.header-container {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 0.8rem;
+  /* border: 2px solid red; */
+}
+
+.header-text {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.header-text:hover {
+  text-decoration: underline;
+}
+
+.profile-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+.profile {
+  height: 35px;
+  width: 33px;
+  border-radius: 50%;
+}
+
+.profile-holder:hover {
+  background-color: #f2f2f2;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.dots:hover {
+  background-color: #f2f2f2;
+}
+
+.dot {
+  height: 20px;
+}
+
+/* ////////// MAIN CONTENT STYLES STARTS HERE ////////// */
+.main-content-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  margin: 4rem 0;
+}
+
+.logo {
+  height: 95px;
+  /* width: 200px; */
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  height: 44px;
+  width: 638px;
+  max-width: 584px;
+  position: relative;
+  margin: 1.5rem 0;
+}
+
+.left-icon,
+.right-icon {
+  position: absolute;
+}
+
+.left-icon {
+  left: 1rem;
+  height: 15px;
+}
+
+.main-btn {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  padding: 0 16px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+.main-btn:hover {
+  border: 1.5px solid #dfe1e5;
+}
+
+.right-icon {
+  right: 1rem;
+}
+
+.right-icon img {
+  height: 30px;
+}
+.input {
+  width: 90%;
+}
+.input input {
+  height: 34px;
+  width: 90%;
+  border: none;
+  outline: none;
+}
+
+.languages {
+  font-size: small;
+  margin-top: 1rem;
+}
+
+.lang {
+  color: #4d5156;
+}
+
+.languages a {
+  padding: 0 5px;
+  color: #1a0dab;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 28px;
+  text-align: center;
+}
