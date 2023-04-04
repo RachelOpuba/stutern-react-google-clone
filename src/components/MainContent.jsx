@@ -25,7 +25,7 @@ const MainContent = (props) => {
         </div>
         <div className="main-buttons">
           <Button text={"Google Search"} />
-          <Button text={"I'm Feeling Lucky"} />
+          <Button text={"I'm Feeling Lucky"} />git push -u origin main
         </div>
         <div className="languages">
           <span className="lang">Google offered in :</span>
