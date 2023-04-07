@@ -19,13 +19,13 @@ const MainContent = (props) => {
             <input type="text" />
           </div>
           <div className="right-icon">
-            <Icon img={voiceIcon} />
-            <Icon img={lens} />
+            <Icon img={voiceIcon} class={"voice-icon"} />
+            <Icon img={lens} class={"lens-icon"} />
           </div>
         </div>
         <div className="main-buttons">
           <Button text={"Google Search"} />
-          <Button text={"I'm Feeling Lucky"} />git push -u origin main
+          <Button text={"I'm Feeling Lucky"} />
         </div>
         <div className="languages">
           <span className="lang">Google offered in :</span>
