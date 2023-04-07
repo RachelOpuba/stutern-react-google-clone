@@ -4,7 +4,7 @@ import searchIcon from "../assets/images/search-icon.png";
 import voiceIcon from "../assets/images/google-voice-icon.png";
 import lens from "../assets/images/google-lens.jpg";
 import Icon from "./Icon";
-import Button from "../Button";
+import Button from "./Button";
 
 const MainContent = (props) => {
   return (
